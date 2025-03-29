@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
+    <meta name = "viewport" content ="width-device-width , initial-scale = 1.0">
+<title>Personal Portfolio Website</title>
+<link rel = "stylesheet" href = "style.css" >
+<script src="https://kit.fontawesome.com/da4d52e0c9.js" crossorigin="anonymous"></script>
+<script src="function.js"></script>
+</head>
+<body>
+    <!-- Home Page -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Image/Logo-2.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>Software Engineer</p>
+        <h1>Hi, I'm <span>Taneesha</span><br>Lohana From Pakistan</h1>
+    </div>
+    </div>
+
+</div>
+    <!-- About Page -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/user-1.png">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Taneesha Lohana, a passionate software engineer currently pursuing my degree at Mehran 
+                        University of Engineering and Technology (MUET). With a keen eye for innovation and a 
+                        strategic mindset, I thrive on transforming creative ideas into tangible solutions. 
+                        My journey encompasses roles as a creative designer, skilled developer, and growth-driven 
+                        marketer. I believe in the power of technology to drive meaningful change and am committed 
+                        to leveraging my diverse skill set to make a positive impact.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><h1>Technical Skills</h1>
+                                Programming Languages: Python, Java, JavaScript, PHP, C++<br>
+                                Web Development: HTML, CSS, JavaScript, Bootstrap, PHP, MySQL<br><br></li>
+                            <li><h1>Professional Skills</h1>
+                                Project Management, Problem-Solving, Communication & Public Speaking, Social Media Management & Marketing, Content Writing, Team Collaboration, Leadership & Community Engagement</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li><h1>Job Experience</h1>
+                                <span>March 2025 - Present</span>
+                                <br>Social Media Manager & Marketer at Women Wheelz
+                            </li>
+
+                            <li>
+                                <span>March 2025 – Present</span>
+                                <br>Content Writer at Women Wheelz
+                            </li>
+
+                            <li>
+                                <span>Oct 2024 – Nov 2024</span>
+                                <br>Social Mobilizer at Pak Altas Waste Management Company
+                            </li>
+
+                            <li>
+                                <span>Dec 2023 – June 2024</span>
+                                <br>TeleSales Agent at Vocus Authorized Channel Partner of DU Telecom <br><br>
+                            </li>
+
+                            <li><h1>Internships</h1>
+                                <span>Feb 2025 – Present</span>
+                                <br>Head Marketer at Bixforge Solutions
+                            </li>
+
+                            <li>
+                                <span>Feb 2025 – Present</span>
+                                <br>Head Graphics at Bixforge Solutions
+                            </li>
+
+                            <li>
+                                <span>March 2025 – April 2025</span>
+                                <br>Web Development Intern at TechnoHacks EduTech
+                            </li>
+                            
+                            <li>
+                                <span>March 2025 – April 2025</span>
+                                <br>Backend Development Intern at Intern Intelligence
+                            </li>
+                        
+                            <li>
+                                <span>Jan 2025 – March 2025</span>
+                                <br>Java Programmer Intern at IT Club 
+                            </li>
+
+                            <li>
+                                <span>Oct 2024 – Dec 2024</span>
+                                <br>Social Media Manager & Marketer Intern at Viral Vibes Pvt.Ltd. <br><br>
+                            </li>
+
+                            <li><h1>Communities & Societies</h1>
+                                <span>March 2025 - March 2026</span>
+                                <br>Director Marketer & PR at Wall Of Hope MUET Chapter
+                            </li>
+
+                            <li>
+                                <span>Feb 2025 – Feb 2026</span>
+                                <br>Marketing Team Member at Learning Horizon
+                            </li>
+
+                            <li>
+                                <span>April 2024 – Oct 2024</span>
+                                <br>Head Content Manangement at AWS Cloud Club Mehran UET 
+                            </li>
+
+                            <li>
+                                <span>Jan 2024 – Oct 2024</span>
+                                <br>Director Marketer at SES MUET 
+                            </li>
+
+                            <li>
+                                <span>Jan 2023 – Jan 2024</span>
+                                <br>Event Organizing Member at SES MUET 
+                            </li>
+
+                            <li>
+                                <span>Sep 2021 – Sep 2022</span>
+                                <br>Team Lead PR at AIESEC HYDERABAD
+                            </li>
+
+                            <li>
+                                <span>Sep 2022 – Sep 2023</span>
+                                <br>Team Lead Marketing at AIESEC HYDERABAD <br><br>
+                            </li>
+
+                            <li><h1>Volunteer Roles</h1>
+                                ISKCON - Krishna Janmashtami - Hyderbad
+                                <br>Human Rights Council Pakistan - Women’s Conference - MUET
+                                <br>SOS Jamshoro - Jashan-e-Baharan - Jamshoro <br><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><h1>Matriculation, 2020</h1>from SSC <span><br>A Grade in BISE, HYD</span></li>
+                            <li><h1>Intermediate, 2022</h1>from HSC <span><br>A Grade in BISE, HYD</span></li>
+                            <li><h1>Bachelor's in Software Engineering</h1>from Mehran University Of Engineering an Technology, Jamshoro<span><br>Expected Graduction 2026</span></li>
+                            <li><h1>Bachelor's in Computer Science</h1>from University Of People, California USA<span><br>Expected Graduction 2027</span></li>
+                        </ul> 
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+    <!-- Portfolio Page -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/work.jpeg" >
+                <div class="layer">
+                    <h3>Internscope</h3>
+                    <p>Internscope connects students with internships, jobs, and skill development opportunities
+                        and serves a bridge between education and industry. It was created for 'DevPost Hackathon 
+                        for Humanity'.</p>
+                    <a href="https://github.com/Tanneeshha/internship-portal"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-3.jpeg" >
+                <div class="layer">
+                    <h3>Java & Java-FX Programming</h3>
+                    <p>Java & JavaFX programming involves building desktop applications using Java for backend 
+                        logic and JavaFX for creating modern, GUI-based user interfaces with features like 
+                        animations, styling, and event-driven programming. It was a internship program by IT Club.
+                    </p>
+                    <a href="https://github.com/Tanneeshha"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-2.jpeg" >
+                <div class="layer">
+                    <h3>TruthGuard - Fake News Detection App</h3>
+                    <p>TruthGuard is an AI-powered Fake News Detection App that analyzes and verifies news content 
+                        using machine learning models to identify misinformation with confidence labeling. It was 
+                        created for 'HYDTHON AI/ML Hackathon'.
+                    </p>
+                    <a href="https://github.com/Tanneeshha"><i class="fas fa-solid fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Tanneeshha" class="btn">See More</a>
+    </div>
+</div>
+    <!-- Contact Page -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>taneesha1327@gmail.com </p>
+                <p><i class="fa-brands fa-whatsapp"></i><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg" width="18"> +92-332-0379794</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Taneesha.lohana.2020"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/taneesha-lohana-178005263/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Tanneeshha"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Image/Taneesha-CV.pdf" download class="btn btn-2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type = "text" name = "Name" placeholder="Your Name" required>
+                    <input type = "text" name = "E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Portfolio Website 2025. Made with <i class="fa-solid fa-heart"></i> for TechnoHacks EduTech</p>
+    </div>
+</div>
+</body>
+</html>
